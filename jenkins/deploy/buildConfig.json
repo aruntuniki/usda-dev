@@ -1,0 +1,41 @@
+{
+    "description": "Jenkins build configuration",
+    "version": "0.1",
+    "validateOnly": false,
+    "branches": {
+      "usda/dev": {
+        "name": "tscti",
+        "orgUsername": "jenkins.user@tscti.com.tscti",
+        "orgUrl": "https://tscti-dev-ed.develop.my.salesforce.com",
+        "privateKeyId": "pk-tscti-v1",
+        "consumerKeyId": "ck-tscti-v1",
+        "email": {
+          "to": [
+                "arun.tuniki@tscti.com"
+          ],
+          "cc": [
+                "pavan.tuniki@tscti.com"
+          ]
+        }
+      },
+      "main": {
+        "name": "tscti",
+        "orgUsername": "jenkins.user@tscti.com.tscti",
+        "orgUrl": "https://tscti-dev-ed.develop.my.salesforce.com",
+        "privateKeyId": "pk-tscti-v1",
+        "consumerKeyId": "ck-tscti-v1",
+        "email": {
+          "to": [
+            "arun.tuniki@tscti.com"
+          ],
+          "cc": [
+            "pavan.tuniki@tscti.com"
+          ]
+        }
+      }
+    },
+    "testConfig": {
+      "targetBranch": "",
+      "originBranch": ""
+    }
+  }
